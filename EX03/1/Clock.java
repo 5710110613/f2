@@ -1,7 +1,8 @@
 public class Clock{
     private int state;
-    private int h;
-    private int m; 
+    private int m;
+    private int h; 
+    
     public Clock(int hour, int min){
         h = hour;
         m = min;
